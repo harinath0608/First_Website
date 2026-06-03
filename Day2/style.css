@@ -1,0 +1,66 @@
+/* selector {
+    property : value ; 
+} */
+
+
+*{
+    margin: 0px;
+}
+
+.title {
+    color: blueviolet;
+}
+
+.container {
+
+    padding: 10px ;
+    
+    /* background-color: brown; */
+    background-size: cover;
+    height: 100vh;
+}
+
+.parent-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+   padding: 5px ;
+   border-radius: 5px ;
+   margin: 5px ;
+   width: 150px ; 
+   height: 220px ;
+   background-color: aliceblue;
+}
+
+.navbar {
+    padding: 5px ;
+    display: flex ;
+    background-color: blanchedalmond;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-items {
+    display: flex;
+    gap: 20px ;
+}
+
+.list-item {
+    color: brown;
+    text-decoration: none ;
+    list-style: none ;
+}
+
+.com-name {
+    color: brown;
+}
+
+.bannersection {
+    padding: 10px ;
+    text-align: center;
+    margin: 10px ;
+    background-color: chartreuse;
+}
